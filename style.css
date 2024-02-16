@@ -20,6 +20,10 @@
     margin: 0 auto;
 }
 
+.ver {
+    display:none;
+}
+
 
 
 .first, .second, .third, .fourth, .fifth, .sixth {
