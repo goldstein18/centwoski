@@ -13,14 +13,14 @@
     font-family: 'CENT-BOLD';
     src: url('font/Aileron-Bold.otf') format('opentype');
 }
-nav {
-    padding-top: 30px;
-}
+
 .container {
     width: 80%;
     background-color: #405772;
     margin: 0 auto;
 }
+
+
 
 .first, .second, .third, .fourth, .fifth, .sixth {
 
@@ -71,6 +71,7 @@ nav ul li:hover {
     border:2px solid rgb(207, 230, 255);;
     border-radius: 20px;
     padding:5px;
+    cursor: pointer;
 
 }
 
@@ -446,3 +447,7 @@ form div button {
 }
 
 
+
+nav {
+    padding-top: 50px;
+}
