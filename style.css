@@ -13,7 +13,9 @@
     font-family: 'CENT-BOLD';
     src: url('font/Aileron-Bold.otf') format('opentype');
 }
-
+nav {
+    padding-top: 50px;
+}
 .container {
     width: 80%;
     background-color: #405772;
