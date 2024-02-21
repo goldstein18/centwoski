@@ -1,0 +1,122 @@
+
+* {
+    border:0;
+    margin: 0;
+    font-family: 'CENT';
+}
+
+@font-face {
+    font-family: 'CENT';
+    src: url('font/Aileron-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'CENT-BOLD';
+    src: url('font/Aileron-Bold.otf') format('opentype');
+}
+
+
+.first {
+    background-image: url('/images/1.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/* COPU CODE */
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+ 
+    color:white;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    width: 100%;
+
+    
+}
+
+nav h1 {
+    width: 40%;
+    color:rgb(207, 230, 255);
+    font-size: 30px !important;
+    
+    color:white;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+   
+    text-align: none;
+    list-style: none;
+    justify-content: space-between;
+    color:rgb(207, 230, 255);
+    align-items: center;
+   
+}
+
+
+nav ul li:hover {
+    border:2px solid rgb(207, 230, 255);;
+    border-radius: 20px;
+    padding:5px;
+    cursor: pointer;
+
+}
+
+main {
+    font-size:4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:25vh;
+ 
+}
+main h1, span {
+    color:#D9D9D9;
+    font-family: 'CENT-BOLD';
+}
+main span {
+    color:#40BDC6;
+}
+
+.button {
+    margin: 0 auto;
+    background-color: #98a4b5;
+    border-radius:40px;
+    padding:10px 25px;
+    color:white;
+    margin-top:50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+/* SECOND SECTION STARTS */
+
+
+.second {
+    background-image: url('/images/1.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+/*SECOND SECTION ENDS */
