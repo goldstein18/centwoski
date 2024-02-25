@@ -115,7 +115,7 @@ main span {
     background-size: cover;
     display: flex;
     flex-direction: row;
-   
+
     align-items: center;
 }
 
@@ -129,6 +129,7 @@ main span {
     justify-content: center;
     height: 100%;
     width: 100%;
+  
 }
 
 .wrapper .content-image {
@@ -139,6 +140,7 @@ main span {
     align-items: center;
     justify-content: center;
     height: 100%;
+
     
 }
 
@@ -157,6 +159,7 @@ main span {
     justify-content: center;
     height: 100%;
     text-align: center;
+ 
 }
 
 .content h1 {
@@ -183,3 +186,60 @@ main span {
 
 
 /*SECOND SECTION ENDS */
+
+
+/*THIRD SECTION STARTS*/
+
+
+.third {
+    background-image: url('/images/1.3.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third .container h1 {
+text-align: center;
+font-size: 4rem;
+color:#D9D9D9;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+ 
+    color:white;
+    
+    justify-content: space-between;
+   
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+   
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top:150px;
+}
+
+.card-title {
+    color:#42B8FD;
+    font-size: 1.25rem;
+    margin-bottom:10px;
+}
+
+.card-text {
+    color: #0A1A44;
+}
+
+
+
+
+
+/*THIRD SECTION ENDS */
