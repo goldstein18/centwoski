@@ -161,7 +161,31 @@
        
         </p>
       </div>
-        
+         <script>
+        function scrollToForm() {
+          // Get a reference to the form element
+          var formElement = document.getElementById("form");
+    
+          // Scroll to the form element
+          formElement.scrollIntoView({ behavior: "smooth" });
+        }
+        document.addEventListener("DOMContentLoaded", function () {
+          // 
+          var clickableImages = document.querySelectorAll(".clickable-image");
+    
+          // Add a click event listener to each clickable image
+          clickableImages.forEach(function (image) {
+            image.addEventListener("click", function () {
+              // Get the link URL from the 'data-link' attribute of the clicked image
+              var url = image.getAttribute("data-link");
+    
+              // Open the URL in the current window when the image is clicked
+              window.location.href = url;
+            });
+          });
+        });
+    
+      </script>
         <script src="" async defer></script>
     </body>
 </html>
