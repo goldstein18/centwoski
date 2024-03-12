@@ -15,6 +15,11 @@
 }
 
 
+.white {
+    color:gray;
+}
+
+
 .first {
     background-image: url('/images/1.3.jpg');
     height: 100vh;
